@@ -4,6 +4,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Layout from "./layouts/sidebar"; // Change layout to sidebar
 import Index from "./pages/Index.jsx";
+import { Home } from "lucide-react"; // Import Home icon from lucide-react
 const queryClient = new QueryClient();
 
 export const navItems = [
